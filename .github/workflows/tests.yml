@@ -20,12 +20,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Copy .env
-        run: php -r "copy('.env.github', '.env');"
-
-      - name: Display env
-        run: cat .env
-
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -45,19 +39,3 @@ jobs:
 
       - name: Execute tests
         run: vendor/bin/phpunit --coverage-clover ./coverage.xml
-#        run: vendor/bin/phpunit
-
-#      - name: Coverage
-#        uses: codecov/codecov-action@v3
-#        with:
-#          token: ${{ secrets.TOKEN_CODECOV }}
-#          files: ./coverage.xml
-#          verbose: true
-
-## Disabled Artifacts
-#      - name: Upload artifacts
-#        uses: actions/upload-artifact@master
-#        if: failure()
-#        with:
-#          name: Logs
-#          path: ./storage/logs

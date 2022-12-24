@@ -26,13 +26,10 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
-          tools: cs2pr, phplint, phpcs, phpstan
+          tools: cs2pr, phplint, phpcs
 
       - name: Run phplint
         run: phplint --no-configuration --no-cache --no-interaction ./src/* ./tests/*
 
       - name: Run phpcs
         run: phpcs -q --standard=PSR12 --report=checkstyle --extensions=php ./src/* ./tests/* | cs2pr
-
-      - name: Run phpstan
-        run: phpstan analyse ./src/*
