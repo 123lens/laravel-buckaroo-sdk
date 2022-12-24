@@ -1,3 +1,10 @@
+![PHP version][ico-php-version]
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Tests][ico-tests]][link-tests]
+[![Total Downloads][ico-downloads]][link-downloads]
+
+
 # Laravel Buckaroo SDK Wrapper
 
 [Buckaroo Documentation](https://docs.buckaroo.io/)
@@ -49,5 +56,13 @@ $ composer test
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+
+
+
+[ico-php-version]: https://img.shields.io/packagist/dependency-v/budgetlens/laravel-buckaroo-sdk/php.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/budgetlens/laravel-buckaroo-sdk.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-tests]: https://github.com/123lens/laravel-buckaroo-sdk/actions/workflows/tests.yml/badge.svg
+[ico-downloads]: https://img.shields.io/packagist/dt/budgetlens/laravel-buckaroo-sdk.svg?style=flat-square
 [link-author]: https://github.com/avido
 [link-contributors]: https://github.com/123lens/laravel-buckaroo-sdk/graphs/contributors
