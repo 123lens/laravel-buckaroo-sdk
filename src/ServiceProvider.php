@@ -8,6 +8,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Bootstrap the application services.
+     * @return void
      */
     public function boot()
     {
@@ -20,6 +21,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
     /**
      * Register the application services.
+     * @return void
      */
     public function register()
     {
