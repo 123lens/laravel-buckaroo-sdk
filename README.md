@@ -66,3 +66,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-downloads]: https://img.shields.io/packagist/dt/budgetlens/laravel-buckaroo-sdk.svg?style=flat-square
 [link-author]: https://github.com/avido
 [link-contributors]: https://github.com/123lens/laravel-buckaroo-sdk/graphs/contributors
+[link-packagist]: https://packagist.org/packages/budgetlens/laravel-buckaroo-sdk
+[link-tests]: https://github.com/123lens/laravel-buckaroo-sdk/actions/workflows/tests.yml?query=workflow%3Atests
+[link-downloads]: https://packagist.org/packages/budgetlens/laravel-buckaroo-sdk
