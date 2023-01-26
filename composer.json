@@ -15,7 +15,7 @@
     "homepage": "https://github.com/123lens/laravel-buckaroo-sdk",
     "require": {
         "php": "^8.1",
-        "buckaroo/sdk": "^1.2"
+        "buckaroo/sdk": "1.2.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0 || ^5.0 || ^6.0",
@@ -50,7 +50,7 @@
     "scripts": {
         "style": "vendor/bin/phpcs --standard=PSR12 --extensions=php --colors ./src/* ./tests/*",
         "lint": "vendor/bin/phplint --no-configuration --no-cache --no-interaction ./src/* ./tests/*",
-        "stan": "vendor/bin/phpstan analyse ./src/*",
+        "stan": "vendor/bin/phpstan analyse",
         "test": "vendor/bin/phpunit"
     }
 }
