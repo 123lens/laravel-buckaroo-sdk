@@ -33,7 +33,7 @@
                 "Budgetlens\\LaravelBuckaroo\\ServiceProvider"
             ],
             "aliases": {
-                "Buckaroo": "Budgetlens\\LaravelBuckaroo\\Facade"
+                "Buckaroo": "Budgetlens\\LaravelBuckaroo\\Facades\\Buckaroo"
             }
         }
     },
