@@ -51,3 +51,4 @@ Inital release
 [1.0.2]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.1...v1.0.2
 [1.0.3]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.2...v1.0.3
 [1.0.4]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.3...v1.0.4
+[1.5.0]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.4...v1.5.0
