@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2023-03-23
+
 ### Changes
+- Updated Buckaroo Dependency to ^v1.5.0
 - Added Changes file
+
 
 ## [1.0.4] - 2023-03-15
 
@@ -47,3 +51,4 @@ Inital release
 [1.0.2]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.1...v1.0.2
 [1.0.3]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.2...v1.0.3
 [1.0.4]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.3...v1.0.4
+[1.5.0]: https://github.com/123lens/laravel-buckaroo-sdk/compare/v1.0.4...v1.5.0
