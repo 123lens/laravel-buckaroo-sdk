@@ -48,6 +48,10 @@ Run the tests with:
 $ composer test
 ```
 
+## Versioning
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and tries to 
+match the version of [Buckaroo SDK](https://docs.buckaroo.io/)
+
 ## Credits
 
 - [Sebastiaan Blaas][link-author]
