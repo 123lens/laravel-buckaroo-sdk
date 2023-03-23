@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2023-03-23
+
 ### Changes
+- Updated Buckaroo Dependency to ^v1.5.0
 - Added Changes file
+
 
 ## [1.0.4] - 2023-03-15
 
