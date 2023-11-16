@@ -2,7 +2,7 @@
     "name": "budgetlens/laravel-buckaroo-sdk",
     "description": "Laravel wrapper for Buckaroo SDK",
     "keywords": ["laravel", "buckaroo", "api", "php"],
-    "version": "1.5.0",
+    "version": "1.9.0",
     "type": "package",
     "license": "MIT",
     "minimum-stability": "dev",
@@ -16,7 +16,7 @@
     "homepage": "https://github.com/123lens/laravel-buckaroo-sdk",
     "require": {
         "php": "^8.1",
-        "buckaroo/sdk": "^1.5.0"
+        "buckaroo/sdk": "^1.9.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0 || ^5.0 || ^6.0",
